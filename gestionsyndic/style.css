@@ -1,0 +1,113 @@
+/*css page d'accueil*/
+.accueil{
+    margin: auto;
+    width: 50%;
+    border: 3px solid gray;
+    margin-top: 250px;
+    text-align: center;
+}
+.boutonaccueil{
+    background-color: grey;
+    color: white;
+    padding: 7px 10px;
+    margin: 3px 0;
+    border: none;
+    cursor: pointer;
+    width: 60%;
+}
+/*css formulaire de connexion et d'inscription*/
+.bodyform,.bodyappel{
+    background-color: lightgrey;
+}
+.containerformconnexion{
+    width:400px;
+    margin:0 auto;
+    margin-top:10%;
+}
+.formconnexion,.forminscri {
+    width:100%;
+    padding: 30px;
+    border: 1px solid #f1f1f1;
+    background: #fff;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+h2{
+    text-align: center;
+}
+.inputformconn{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.inputbuttonconn,.inputbuttoninscri{
+    background-color: grey;
+    color: white;
+    padding: 7px 10px;
+    margin: 3px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.textconn{
+    font-size: 18px;
+    text-align: center;
+}
+/*css page appel de fond*/
+.containerappel{
+    width:850px;
+    margin:0 auto;
+    margin-top:10%;
+}
+.tableauappel,.tableauproprio{
+    border-collapse: collapse;
+    border: 1px solid gray;
+    width: 100%;
+}
+th{
+    padding: 10px;
+    background-color: rgb(49, 49, 49);
+    color: white;
+}
+td{
+    padding: 8px;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+.boutondeconnexion{
+text-decoration: none;
+padding: 9px 30px;
+background-color: red; 
+color: white;
+border: none;
+}
+/*css formulaire appel de fond*/
+.inputbuttonappel{
+    background-color: grey;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.inputformappel,.selectappeldefond{
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.boutonappel{
+    text-align: center;
+}
+.selectappeldefond{
+    padding: 8px 16px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
